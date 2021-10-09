@@ -27,6 +27,7 @@ namespace _213020_Yaroslav
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<NoteContext>(opt => opt.UseInMemoryDatabase("TetsDb"));
+            services.AddDbContext<UserContext>(opt => opt.UseInMemoryDatabase("TetsDb"));
             services.AddControllers();
         }
 
