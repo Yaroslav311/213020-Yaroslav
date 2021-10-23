@@ -26,6 +26,7 @@ namespace _213020_Yaroslav
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddDbContext<NoteContext>(opt => opt.UseInMemoryDatabase("TetsDb"));
             services.AddDbContext<UserContext>(opt => opt.UseInMemoryDatabase("TetsDb"));
             services.AddControllers();
@@ -38,6 +39,8 @@ namespace _213020_Yaroslav
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(option => option.WithOrigins("http://localhost:8080").AllowAnyHeader());
 
             app.UseRouting();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj": {}
+    "C:\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj": {
+    "C:\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj",
+        "projectUniqueName": "C:\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj",
         "projectName": "213020-Yaroslav",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj",
+        "projectPath": "C:\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav.csproj",
         "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\obj\\",
+        "outputPath": "C:\\GitHub\\213020-Yaroslav\\213020-Yaroslav\\213020-Yaroslav\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -42,6 +42,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.10, )"
